@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/algoriza-e-commerce/static/css/main.a224963f.css",
+    "main.js": "/algoriza-e-commerce/static/js/main.865ce7e4.js",
+    "static/media/logo.svg": "/algoriza-e-commerce/static/media/logo.f03f8d4d2b586219164e92baa835ea2e.svg",
+    "index.html": "/algoriza-e-commerce/index.html",
+    "static/media/cart-icon.svg": "/algoriza-e-commerce/static/media/cart-icon.0f0cd44e7206cc6af6327851ca250b91.svg",
+    "static/media/home-icon.svg": "/algoriza-e-commerce/static/media/home-icon.a0c1b0a7e81b8c3fa5b5b5adc7f75470.svg",
+    "main.a224963f.css.map": "/algoriza-e-commerce/static/css/main.a224963f.css.map",
+    "main.865ce7e4.js.map": "/algoriza-e-commerce/static/js/main.865ce7e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a224963f.css",
+    "static/js/main.865ce7e4.js"
+  ]
+}
