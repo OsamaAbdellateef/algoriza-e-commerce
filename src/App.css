@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+  background-color: #f8f8f8;
+}
+
+.App.dark-mode {
+  color: rgb(173, 173, 173);
+  background-color: black;
+  transition: var(--tran-03);
+}
+
+.container {
+  padding: 2.8rem;
+}
+
+.dark .container {
+  background-color: #191f30;
+}
+
+.products-container {
+  display: flex;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  top: 0;
+  left: 250px;
+  transition: var(--tran-03);
+  width: calc(100% - 250px);
+  transition: var(--tran-05);
+}
+
+.content.dark {
+  background-color: #191f30;
+}
+
+/* input radio button */
+
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    left: -250px !important;
+  }
+
+  .pin-sidebar {
+    display: none;
+  }
+
+  .left-toggler {
+    display: block;
+  }
+
+  .nav-item.nav-toggler {
+    display: block;
+  }
+
+  .content {
+    width: 100% !important;
+    left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .filter-sidebar-container {
+    display: none;
+  }
+
+  .left-part span:not(.filter-menu) {
+    display: none !important;
+  }
+
+  .left-part span.filter-menu {
+    display: block !important;
+  }
+
+  .product-list:not(.full-width) {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .full-width .grid-card-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .content-header-title {
+    border: none !important;
+  }
+
+  .breadcrumbs {
+    display: none !important;
+  }
+
+  .content-header-right {
+    display: none !important;
+  }
+
+  .product-list:not(.full-width) {
+    grid-template-columns: 1fr !important;
+  }
+}
